@@ -68,14 +68,14 @@
                 <nav class="collapse navbar-collapse navbar-responsive-collapse navbar-left">
 
                     <ul class="nav navbar-nav">
-                        <li class="header-get-a-quote"><a href="Default.aspx">Home</a></li>
+                        <li class="header-get-a-quote"><a href="Index.php">Home</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">About<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="aboutYCC.aspx">About YesCC</a></li>
+                                <li><a href="includes/aboutYCC.php">About YesCC</a></li>
                                 <li><a href="#">Board of Management</a></li>
-                                <li><a href="DirectorMessages.aspx">Director's Message</a></li>
-                                <li><a href="missionvision.aspx">Mission & Vision</a></li>
+                                <li><a href="includes/DirectorMessages.php">Director's Message</a></li>
+                                <li><a href="includes/missionvision.php">Mission & Vision</a></li>
                             </ul>
                         </li>
 
@@ -96,24 +96,24 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Student Corner <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="RegitrationForm.aspx">Online Registration</a></li>
-                                <li><a href="ResultVerification.aspx">Result Verification</a></li>
-                                <li><a href="CertificateVerification.aspx">Certificate Verification</a></li>
+                                <li><a href="includes/RegitrationForm.php">Online Registration</a></li>
+                                <li><a href="includes/ResultVerification.php">Result Verification</a></li>
+                                <li><a href="includes/CertificateVerification.php">Certificate Verification</a></li>
 
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="photo-gallery.aspx">Photo gallery</a></li>
-                                <li><a href="NewsMediaGallery.aspx">News & Media</a></li>
-                                <li><a href="AwarAchievementGallery.aspx">Award & Achievement</a></li>
+                                <li><a href="includes/photo-gallery.php">Photo gallery</a></li>
+                                <li><a href="includes/NewsMediaGallery.php">News & Media</a></li>
+                                <li><a href="includes/AwarAchievementGallery.php">Award & Achievement</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">updates <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="latest-news.aspx">Letest News</a></li>
+                                <li><a href="includes/latest-news.php">Letest News</a></li>
                                 <li><a href="#">Lastes Videos</a></li>
 
                             </ul>

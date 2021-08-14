@@ -68,6 +68,18 @@
     </div>
     <!--/ Carousel end -->
     <!--   courses details  -->
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <h3 class="border-title border-left">Courses We Provide</h3>
+               
+            </div>
+            <!--/ Title row end -->
+            <div class="row">
+               
+            </div>
+        </div>
+    </section>
     <section class="call-to-action">
         <div class="container">
             <div class="row">
@@ -192,11 +204,155 @@
         </div>
         <!-- Container end -->
     </section>
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 panel_shadow">
+                    <div class="sliderimg" style="margin: 0px; height: 100px;">
+                        <h3 class="border-title border-left" style="color: whitesmoke;">Why Join Yes Computer Center? </h3>
+                    </div>
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Progress</a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in">
+                                <div class="panel-body">
+                                    <img class="pull-left" src="images/slider-main/2.jpg" alt="" />
+                                    <p>
+                                        Progress is impossible without change, and those who cannot change their minds cannot change anything.<br />
+                                        The test of our progress is not whether we add more to the abundance of those who have much it is whether we provide enough for those who have little.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ Panel 1 end-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapseTwo">Positiveness</a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <img class="pull-right" src="images/slider-main/3.jpg" alt="" />
+                                    <p>
+                                        Any day above ground is a good day. Before you complain about anything, be thankful for your life and the things that are still going well.<br />
+                                        <hr />
+                                        It is important for me to focus on positive actions taken to heal instead of beating myself up over what I did wrong each day. It shifts my perspective, thus making my body and mind more hospitable places for healing and positive energy.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ Panel 2 end-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapseThree">Pride</a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <img class="pull-left" src="images/slider-main/1.jpg" alt="" />
+                                    <p>
+                                        Pride gets no pleasure out of having something, only out of having more of it than the next man... It is the comparison that makes you proud: the pleasure of being above the rest. Once the element of competition is gone, pride is gone. 
+                           <hr />
+                                        The proud person always wants to do the right thing, the great thing. But because he wants to do it in his own strength, he is fighting not with man, but with God.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/ Panel 3 end-->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapsefour">Precision</a>
+                                </h4>
+                            </div>
+                            <div id="collapsefour" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <img class="pull-right" src="images/slider-main/4.jpg" alt="" />
+                                    <p>
+                                        Delivering accuracy through continuous development and achieving sustainable growth with the collaborative efforts of our business
+                              partners
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ Accordion end -->
+                </div>
+                <!-- Col end -->
+                <div class="col-md-5 col-xs-12 panel_shadow" style="margin-left: 50px; min-height: 540px;">
+                    <div class="sliderimg" style="margin: 0px; height: 100px;">
+                        <h3 class="border-title border-left" style="color: whitesmoke;">NEWS AND UPDATES</h3>
+                    </div>
+                    <br />
+                    
+                </div>
+                <!-- Col end -->
+            </div>
+            <!--/ Content row end -->
+        </div>
+        <!--/ Container end -->
+    </section>
+    <section id="facts" class="facts-area bg-overlay no-padding">
+        <div class="container">
+            <div class="row">
+                <div class="facts-wrapper">
+                    <div class="col-sm-3 ts-facts">
+                        <div class="ts-facts-img">
+                            <i class="fa fa-user" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="ts-facts-content">
+                            <h2 class="ts-facts-num"><span class="counterUp">180</span></h2>
+                            <h3 class="ts-facts-title">Completed Students</h3>
+                        </div>
+                    </div>
+                    <!-- Col end -->
+                    <div class="col-sm-3 ts-facts">
+                        <div class="ts-facts-img">
+                            <img src="images/icon-image/fact2.png" alt="" />
+                        </div>
+                        <div class="ts-facts-content">
+                            <h2 class="ts-facts-num"><span class="counterUp">40</span></h2>
+                            <h3 class="ts-facts-title">Students</h3>
+                        </div>
+                    </div>
+                    <!-- Col end -->
+                    <div class="col-sm-3 ts-facts">
+                        <div class="ts-facts-img">
+                            <i class="fa fa-desktop" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="ts-facts-content">
+                            <h2 class="ts-facts-num"><span class="counterUp">20</span></h2>
+                            <h3 class="ts-facts-title">COMPUTER REPAIRED</h3>
+                        </div>
+                    </div>
+                    <!-- Col end -->
+                    <div class="col-sm-3 ts-facts">
+                        <div class="ts-facts-img">
+                            <i class="fa fa-windows" style="font-size: 40px;"></i>
+                        </div>
+                        <div class="ts-facts-content">
+                            <h2 class="ts-facts-num"><span class="counterUp">44</span></h2>
+                            <h3 class="ts-facts-title">OS INSTALLED</h3>
+                        </div>
+                    </div>
+                    <!-- Col end -->
+                </div>
+                <!-- Facts end -->
+            </div>
+            <!--/ Content row end -->
+        </div>
+        <!--/ Container end -->
+    </section>
     <!-- End main div -->
     <!-- footer -->
     <?php include 'includes/footer.php' ?>
     <?php
     include 'includes/script.php' ?>
 </body>
-
 </html>

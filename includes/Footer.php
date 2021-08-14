@@ -27,30 +27,15 @@
                 <div class="col-md-3 col-sm-12 footer-widget">
                     <h3 class="widget-title">use full Link</h3>
                     <ul class="list-arrow">
-                        <li><a href="RegitrationForm.aspx">Online Registration</a></li>
-                        <li><a href="latest-news.aspx">Letest News</a></li>
-                        <li><a href="photo-gallery.aspx">Photo Gallery</a></li>
-                        <li><a href="ResultVerification.aspx">Result Verification</a></li>
-                        <li><a href="CertificateVerification.aspx">Certification Verification</a></li>
+                        <li><a href="includes/RegitrationForm.php">Online Registration</a></li>
+                        <li><a href="includes/latest-news.php">Letest News</a></li>
+                        <li><a href="includes/photo-gallery.php">Photo Gallery</a></li>
+                        <li><a href="includes/ResultVerification.php">Result Verification</a></li>
+                        <li><a href="includes/CertificateVerification.php">Certification Verification</a></li>
                     </ul>
                 </div>
-                <!-- Col end -->
-
-                <!-- <div class="col-md-3 col-sm-12 footer-widget">
-                        <h3 class="widget-title">Gallery</h3>
-                        <div class="instagram-widget">
-                            <asp:Repeater ID="RpGallery" runat="server">
-                                <ItemTemplate>
-                                    <a href="photo-gallery.aspx">
-                                        <img class="img-responsive" src="admin/<%#Eval("Images") %>" alt="" /></a>
-                </ItemTemplate>
-                </asp:Repeater>
-
-            </div>
-        </div> -->
+               
         <!-- Col end -->
-        <!-- Col end -->
-
         <div class="col-md-5 col-sm-12 footer-widget">
             <h3 class="widget-title">Contact Us</h3>
 
@@ -94,7 +79,7 @@
             <div class="col-xs-12 col-sm-6">
                 <div class="copyright-info">
 
-                    <span>Copyright © 2021-22 All Rights Reserved.</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="Login.php" target="_blank">Login</a>
+                    <span>Copyright © 2021-22 All Rights Reserved.</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="includes/Login.php" target="_blank">Login</a>
                     
                     <!--<a href="https://www.hitwebcounter.com" target="_blank">
                             <img src="https://hitwebcounter.com/counter/counter.php?page=7350281&style=0005&nbdigits=5&type=page&initCount=0" title="Web Counter" alt="counter free" border="0"></a>-->
@@ -105,7 +90,7 @@
             <div class="col-xs-12 col-sm-6">
 
                 <div class="footer-menu">
-                    <p>Powered by :Parvez Ansari & Rajkamal Jaiswal</p>
+                    <p>Powered by :Surya Prasad Prajapati & Parvez Ansari</p>
                 </div>
             </div>
         </div>
