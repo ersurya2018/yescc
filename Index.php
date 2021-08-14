@@ -67,6 +67,25 @@
         </a>
     </div>
     <!--/ Carousel end -->
+    <!--   courses details  -->
+    <section class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-xs-12">
+                    <h3 class="call-to-action-title">We Are Committed To Providing The Best Quality Training</h3>
+                </div>
+                <div class="col-md-2 col-xs-12">
+                    <div class="call-to-action-btn-angle">
+                        <a href="contact.aspx"><i class="fa fa-paper-plane"></i>Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Row end -->
+        </div>
+        <!-- Container end -->
+    </section>
+    <!-- Call to action end -->
+    <!--   Courses Details  -->
     <!-- End main div -->
     <!-- footer -->
     <?php include 'includes/footer.php' ?>
