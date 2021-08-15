@@ -1,3 +1,3 @@
 <?php 
-echo "NewRegistrationStudents page";
+echo "<h1>NewRegistrationStudents page</h1>";
 ?>
