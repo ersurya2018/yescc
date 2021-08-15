@@ -27,11 +27,11 @@
                 <div class="col-md-3 col-sm-12 footer-widget">
                     <h3 class="widget-title">use full Link</h3>
                     <ul class="list-arrow">
-                        <li><a href="includes/RegitrationForm.php">Online Registration</a></li>
-                        <li><a href="includes/latest-news.php">Letest News</a></li>
-                        <li><a href="includes/photo-gallery.php">Photo Gallery</a></li>
-                        <li><a href="includes/ResultVerification.php">Result Verification</a></li>
-                        <li><a href="includes/CertificateVerification.php">Certification Verification</a></li>
+                        <li><a href="RegitrationForm.php">Online Registration</a></li>
+                        <li><a href="latest_news.php">Letest News</a></li>
+                        <li><a href="photo-gallery.php">Photo Gallery</a></li>
+                        <li><a href="ResultVerification.php">Result Verification</a></li>
+                        <li><a href="CertificateVerification.php">Certification Verification</a></li>
                     </ul>
                 </div>
                

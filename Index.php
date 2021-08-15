@@ -7,9 +7,9 @@
 
 <body>
     <!-- header -->
-    <?php include 'includes/header.php' ?>
+   <?php include 'includes/header.php' ?>
     <!--start main Div -->
-    <div class="row">
+   <div class="row">
         <div id="showoffer" runat="server" visible="false" class="col-lg-12" style="color: red; height: 50px; line-height: 50px; font-weight: bold; font-size: 18px;">
             <marquee><img src="images/intro/new.gif" />
 
