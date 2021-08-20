@@ -162,7 +162,7 @@
                                                                             </td>
                                                                             <td align="left" width="15%">
                                                                             
-                                                                            <select style="width:90px; border-radius:5px" >
+                                                                            <select style="width:90px; border-radius:5px" name="dbirth" >
                                                                                 <?php
                                                                                     $i="1"; ?>
                                                                                     <option><?php echo ("Date") ;?></option>
@@ -175,7 +175,7 @@
                                                                                     }
                                                                                     ?>
                                                                                     </select>
-                                                                                    <select style="width:90px; border-radius:5px" >
+                                                                                    <select style="width:90px; border-radius:5px" name="mbirth" >
                                                                                     <?php
                                                                                     $j="1"; ?>
                                                                                     <option><?php echo ("Month") ;?></option>
@@ -188,7 +188,7 @@
                                                                                     }
                                                                                     ?>
                                                                                     </select>
-                                                                                    <select style="width:90px; border-radius:5px">
+                                                                                    <select style="width:90px; border-radius:5px"name="ybirth">
                                                                                     <?php
                                                                                     $k="1991"; ?>
                                                                                     <option><?php echo ("year") ;?></option>
@@ -208,8 +208,8 @@
                                                                                 <span id="lbltypeofidentification">Identity Type :   पहचान के प्रकार</span>
                                                                                 :
                                                                             </td>
-                                                                            <td align="left">
-                                                                                <select class="ibox">
+                                                                            <td align="left" >
+                                                                                <select class="ibox" name="Identity">
                                                                                     <option Value="0">--Select--</option>
                                                                                     <option Value="1"> Voter ID</option>
                                                                                     <option Value="2"> Aadhar ID</option>
@@ -222,13 +222,9 @@
                                                                                 :
                                                                             </td>
                                                                             <td align="left">
-                                                                                <select class="ibox">
-                                                                                    <option Value="0">--Select--</option>
-                                                                                    <option Value="01">Male</option>
-                                                                                    <option Value="02">Female</option>
-                                                                                    <option Value="03">Transgender</option>
-                                                                                </select>
-                                                                                <span id="valname9" class="ValidatorError" style="color: Red; display: none;">Required ?</span>
+                                                                                <input type="radio" name="gen" value="male"/>Male
+                                                                                <input type="radio" name="gen" value="female"/>Female
+                                                                                <input type="radio" name="gen" value="other"/>Transgender
                                                                             </td>
                                                                         </tr>
                                                                         <tr>
@@ -236,7 +232,7 @@
                                                                                 <span id="lblCaptypeofid">Identity Card Number :   पहचान पत्र संख्या</span>:
                                                                             </td>
                                                                             <td align="right" width="2%">
-                                                                                <input type="text" name="prof" class="ibox" placeholder=" Identity Card Number"/>
+                                                                                <input type="text" name="Identityno" class="ibox" placeholder=" Identity Card Number"/>
                                                                             </td>
                                                                         </tr>
                                                                     </tbody>
@@ -302,7 +298,7 @@
                                                                                 <span id="lblStateAddressCap">State : राज्य</span>:
                                                                             </td>
                                                                             <td align="left">
-                                                                                <select class="ibox">
+                                                                                <select class="ibox" name="state">
                                                                                     <option Value="0">--Select--</option >
                                                                                     <option Value="01">ANDAMAN AND NICOBAR ISLANDS </option>
                                                                                     <option Value="02">ANDHRA PRADESH</option>
@@ -375,7 +371,7 @@
                                                                                 <span id="lblmobilenoCap">Mobile Number : मोबाइल नंबर </span>:
                                                                             </td>
                                                                             <td align="left" width="2%">
-                                                                                <input type="number" name="country" class="ibox" placeholder=" Mobile Number"/>
+                                                                                <input type="number" name="mob" class="ibox" placeholder=" Mobile Number"/>
                                                                             </td>
                                                                         </tr>
                                                                     </tbody>
@@ -406,14 +402,14 @@
                                                                                 <span id="lblPasswordCap">Password :  पासवर्ड</span>:
                                                                             </td>
                                                                             <td align="left" width="2%">
-                                                                                <input type="Password" name="pass" class="ibox" placeholder="Password"/>
+                                                                                <input type="Password" name="pass1" class="ibox" placeholder="Password"/>
                                                                             </td>
                                                                         
                                                                             <td align="right" width="25%">
                                                                                 <span id="lblConfirmPasswordCap">Confirm Password : पासवर्ड की पुष्टि कीजिये</span>:
                                                                             </td>
                                                                             <td align="left" width="2%">
-                                                                                <input type="Password" name="pass" class="ibox" placeholder="Password"/>
+                                                                                <input type="Password" name="pass2" class="ibox" placeholder="Password"/>
                                                                             </td>
                                                                             
                                                                         </tr>
@@ -423,7 +419,7 @@
                                                                             </td>
                                                                             <td align="left">
                                                                             <!-- <asp:DropDownList ID="ddlSecurityQuestion" runat="server" Style="width: 200px;">-->
-                                                                                <select class="ibox">
+                                                                                <select class="ibox" name="secuque">
                                                                                     <option Value="0" >--Select--</option>
                                                                                     <option Value="01">Which is the website you rarely visit ?</option>
                                                                                     <option Value="02">What is the name of  your first school?</option>
@@ -437,7 +433,7 @@
                                                                                 <span id="lblSecurityAnswerCap">Security Answer : सुरक्षा जवाब</span>:
                                                                             </td>
                                                                             <td align="left" width="2%">
-                                                                                <input type="text" name="securiity" class="ibox" placeholder="Security Answer"/>
+                                                                                <input type="text" name="secuans" class="ibox" placeholder="Security Answer"/>
                                                                             </td>
                                                                     </tbody>
                                                                 </table>
@@ -450,7 +446,7 @@
                                 </tbody>
                             </table>
                             <table>
-                                <tr><td><input type="submit" style=" width:500px; margin-left: 350px;" class="btn btn-success">Success</button></td></tr>
+                                <tr><td><input type="submit" name="submit" style=" width:500px; margin-left: 350px;" class="btn btn-success">Success</button></td></tr>
                             </table>
                         </div>
                     </form>
@@ -463,3 +459,44 @@
     include 'includes/script.php' ?>
 </body>
 </html>
+
+
+<?php
+if(isset($_POST['submit']))
+{
+    $name=$_POST['name'];
+    $fname=$_POST['fname'];
+    $mname=$_POST['mname'];
+    $dbirth=$_POST['dbirth'];
+    $mbirth=$_POST['mbirth'];
+    $ybirth=$_POST['ybirth'];
+    $Identity=$_POST['Identity'];
+    $gen=$_POST['gen'];
+    $Identityno=$_POST['Identityno'];
+    $commuaddress=$_POST['address'];
+    $locality=$_POST['local'];
+    $city=$_POST['city'];
+    $country=$_POST['country'];
+    $state=$_POST['state'];
+    $dist=$_POST['dist'];
+    $pin=$_POST['pincode'];
+    $email=$_POST['email'];
+    $mob=$_POST['mob'];
+    $pass1=$_POST['pass1'];
+    $pass2=$_POST['pass2'];
+    $secuque=$_POST['secuque'];
+    $secuans=$_POST['secuans'];
+
+
+
+
+
+
+    $birth=$dbirth."/".$mbirth."/".$ybirth;
+
+
+    echo ("$name </br>"."$fname</br> "."$mname</br> "."$birth</br> "."$Identity</br> "."$gen</br> "."$Identityno</br> ");
+    echo $commuaddress."</br>". $locality."</br>". $city."</br>".$country."</br>".$state."</br>". $dist."</br>".$pin."</br>".$email."</br>".$mob;
+    echo $pass1."</br>".  $pass2."</br>".$secuque."</br>".$secuans;
+}
+?>
