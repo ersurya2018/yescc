@@ -358,6 +358,12 @@
                                                                             <td align="left" width="2%">
                                                                                 <input type="text" name="pincode" class="ibox" placeholder=" Code-Pin"/>
                                                                             </td>
+                                                                            <td align="right" width="25%">
+                                                                                <span id="lblLandLineNoCap">LandLineNo : </span>
+                                                                            </td>
+                                                                            <td align="left" width="2%">
+                                                                                <input type="text" name="LLNo" class="ibox" placeholder="LandLineNo"/>
+                                                                            </td>
                                                                         </tr>
                                                                         <tr>
                                                                             <td align="right" width="25%">
@@ -402,14 +408,14 @@
                                                                                 <span id="lblPasswordCap">Password :  पासवर्ड</span>:
                                                                             </td>
                                                                             <td align="left" width="2%">
-                                                                                <input type="Password" name="pass1" class="ibox" placeholder="Password"/>
+                                                                                <input type="Password" name="pass1" class="ibox" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/>
                                                                             </td>
-                                                                        
+                                                                         
                                                                             <td align="right" width="25%">
                                                                                 <span id="lblConfirmPasswordCap">Confirm Password : पासवर्ड की पुष्टि कीजिये</span>:
                                                                             </td>
                                                                             <td align="left" width="2%">
-                                                                                <input type="Password" name="pass2" class="ibox" placeholder="Password"/>
+                                                                                <input type="Password" name="pass2"  class="ibox" placeholder="Reenter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required/><span id="mess"><mess>
                                                                             </td>
                                                                             
                                                                         </tr>
@@ -446,7 +452,7 @@
                                 </tbody>
                             </table>
                             <table>
-                                <tr><td><input type="submit" name="submit" style=" width:500px; margin-left: 350px;" class="btn btn-success">Success</button></td></tr>
+                                <tr><td><input type="submit" name="submit" style=" width:500px; margin-left: 350px;" class="btn btn-success"></td></tr>
                             </table>
                         </div>
                     </form>
@@ -457,11 +463,14 @@
      <?php include 'includes/footer.php' ?>
     <?php
     include 'includes/script.php' ?>
+   
+    </script>
 </body>
 </html>
 
 
 <?php
+include 'includes/connection.php';
 if(isset($_POST['submit']))
 {
     $name=$_POST['name'];
@@ -480,23 +489,34 @@ if(isset($_POST['submit']))
     $state=$_POST['state'];
     $dist=$_POST['dist'];
     $pin=$_POST['pincode'];
+    $LLNo=$_POST['LLNo'];
     $email=$_POST['email'];
     $mob=$_POST['mob'];
     $pass1=$_POST['pass1'];
-    $pass2=$_POST['pass2'];
+    #$pass2=$_POST['pass2'];
     $secuque=$_POST['secuque'];
     $secuans=$_POST['secuans'];
-
-
-
-
-
-
     $birth=$dbirth."/".$mbirth."/".$ybirth;
 
-
-    echo ("$name </br>"."$fname</br> "."$mname</br> "."$birth</br> "."$Identity</br> "."$gen</br> "."$Identityno</br> ");
-    echo $commuaddress."</br>". $locality."</br>". $city."</br>".$country."</br>".$state."</br>". $dist."</br>".$pin."</br>".$email."</br>".$mob;
-    echo $pass1."</br>".  $pass2."</br>".$secuque."</br>".$secuans;
+    $insertquery="INSERT INTO registration (Name, FName, MName, Dob, IdentityType, IdentityNo, Gender, ComAddress, Locality, City, Country, State, District, PinCode, LandLineNo, MobileNo, Email, Password, SecurityQue, SecurityAns) VALUES('$name','$fname','$mname','$birth','$Identity','$Identityno','$gen','$commuaddress','$locality','$city','$country','$state','$dist','$pin','$LLNo','$mob','$email','$pass1','$secuque','$secuans')";
+    $res=mysqli_query($con,$insertquery);
+    if($res){
+        ?>
+        <script>
+            alert("data save properly");
+        </script>
+        <?php
+    }else
+    {
+        ?>
+        <script>
+            alert("data not save properly");
+        </script>
+        <?php
+    }
+    #echo ("$name </br>"."$fname</br> "."$mname</br> "."$birth</br> "."$Identity</br> "."$gen</br> "."$Identityno</br> ");
+    #echo $commuaddress."</br>". $locality."</br>". $city."</br>".$country."</br>".$state."</br>". $dist."</br>".$pin."</br>".$email."</br>".$mob;
+    #echo $pass1."</br>".$secuque."</br>".$secuans;
+    #echo $LLNo;
 }
 ?>
