@@ -62,7 +62,7 @@
 
             <div class="text-right" style="margin-right: 15px;">
                 <br>
-                <a class="x-btn view_btn" href="contact.aspx">Get Direction</a>
+                <a class="x-btn view_btn" href="contact.php">Get Direction</a>
             </div>
 
 
@@ -79,7 +79,7 @@
             <div class="col-xs-12 col-sm-6">
                 <div class="copyright-info">
 
-                    <span>Copyright © 2021-22 All Rights Reserved.</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="includes/Login.php" target="_blank">Login</a>
+                    <span>Copyright © 2021-22 All Rights Reserved.</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="Login.php" target="_blank">Login</a>
                     
                     <!--<a href="https://www.hitwebcounter.com" target="_blank">
                             <img src="https://hitwebcounter.com/counter/counter.php?page=7350281&style=0005&nbdigits=5&type=page&initCount=0" title="Web Counter" alt="counter free" border="0"></a>-->

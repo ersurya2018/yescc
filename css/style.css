@@ -595,7 +595,7 @@ h3.border-title.border-left {
     background: none;
     color: #959595;
     font-size: 17px;
-    border-radius: 0;
+    border-radius: 20px;
 }
 
     .form-control:focus {
@@ -3527,6 +3527,15 @@ img.testimonial-thumb {
 
 .contact-info-box {
     margin-top: 20px;
+
+}form-group
+.content-info-outer:hover{
+    transition: all ease 2s;
+}
+.content-info-outer:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px #ccc;
+
 }
 
     .contact-info-box i {
