@@ -455,8 +455,7 @@
                                 <tr><td><input type="submit" name="submit" style=" width:500px; margin-left: 350px;" class="btn btn-success"></td></tr>
                             </table>
                         </div>
-                    </form>
-                </div>
+                </form>
             </div>
         </div>    
      <!-- footer -->

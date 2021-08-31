@@ -38,7 +38,7 @@
     <body class="hold-transition skin-blue sidebar-mini">
         
             <header class="main-header">
-                <a href="Dashboard.aspx" class="logo">
+                <a href="Dashboard.php" class="logo">
                     <span class="logo-mini"><b>Ad</b>min</span>
                     <span class="logo-lg"><b>Admin</b>&nbsp;Panel</span>
                 </a>
@@ -65,10 +65,10 @@
                                     </li>
                                     <li class="user-footer">
                                         <div class="pull-left">
-                                            <a href="ChangePassword.aspx" class="btn btn-default btn-flat">Chang Password</a>
+                                            <a href="ChangePassword.php" class="btn btn-default btn-flat">Chang Password</a>
                                         </div>
                                         <div class="pull-right">
-                                            <a href="LogoutPage.aspx" class="btn btn-default btn-flat">Log out</a>
+                                            <a href="LogoutPage.php" class="btn btn-default btn-flat">Log out</a>
                                         </div>
                                     </li>
                                 </ul>
@@ -97,10 +97,10 @@
                                 </span>
                             </a>
                             <ul class="treeview-menu">
-                                <li><a href="Students_Registration.aspx"><i class="fa fa-circle-o"></i>Registration Form</a></li>
-                                <li><a href="Regitration_List.aspx"><i class="fa fa-circle-o"></i>Registration List</a></li>
-                                <li><a href="AdmissionForm.aspx"><i class="fa fa-circle-o"></i>Application Form</a></li>
-                                <li><a href="ListOf_Students.aspx"><i class="fa fa-circle-o"></i>List Of Students</a></li>
+                                <li><a href="Students_Registration.php"><i class="fa fa-circle-o"></i>Registration Form</a></li>
+                                <li><a href="Regitration_List.php"><i class="fa fa-circle-o"></i>Registration List</a></li>
+                                <li><a href="AdmissionForm.php"><i class="fa fa-circle-o"></i>Application Form</a></li>
+                                <li><a href="ListOf_Students.php"><i class="fa fa-circle-o"></i>List Of Students</a></li>
                             </ul>
                         </li>
                         <li class="treeview">
@@ -111,10 +111,10 @@
                                 </span>
                             </a>
                             <ul class="treeview-menu">
-                                <li><a href="AddNewCoures.aspx"><i class="fa fa-circle-o"></i>Add Course Name</a></li>
-                                <li><a href="AddCourseDetails.aspx"><i class="fa fa-circle-o"></i>Add Course Details</a></li>
-                                <li><a href="AddCourse_Syllabus.aspx"><i class="fa fa-circle-o"></i>Add Course Syllabus </a></li>
-                                <li><a href="AddExamDetails.aspx"><i class="fa fa-circle-o"></i>Add Exam Details </a></li>
+                                <li><a href="AddNewCoures.php"><i class="fa fa-circle-o"></i>Add Course Name</a></li>
+                                <li><a href="AddCourseDetails.php"><i class="fa fa-circle-o"></i>Add Course Details</a></li>
+                                <li><a href="AddCourse_Syllabus.php"><i class="fa fa-circle-o"></i>Add Course Syllabus </a></li>
+                                <li><a href="AddExamDetails.php"><i class="fa fa-circle-o"></i>Add Exam Details </a></li>
                             </ul>
                         </li>
 
@@ -126,28 +126,28 @@
                                 </span>
                             </a>
                             <ul class="treeview-menu">
-                                <li><a href="Photo_Gallery.aspx"><i class="fa fa-circle-o"></i>Photo Gallery</a></li>
-                                <li><a href="NewsAndMedia.aspx"><i class="fa fa-circle-o"></i>News And Media</a></li>
-                                <li><a href="AwardAchiement.aspx"><i class="fa fa-circle-o"></i>Award And Achiement</a></li>
+                                <li><a href="Photo_Gallery.php"><i class="fa fa-circle-o"></i>Photo Gallery</a></li>
+                                <li><a href="NewsAndMedia.php"><i class="fa fa-circle-o"></i>News And Media</a></li>
+                                <li><a href="AwardAchiement.php"><i class="fa fa-circle-o"></i>Award And Achiement</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="NewsAndUpdates.aspx">
+                            <a href="NewsAndUpdates.php">
                                 <i class="fa fa-eye"></i><span>Add News And Updates</span>
                             </a>
                         </li>
                         <li>
-                            <a href="CourseEnquiry.aspx">
+                            <a href="CourseEnquiry.php">
                                 <i class="fa fa-edit"></i><span>Course Enquiry</span>
                             </a>
                         </li>
                         <li>
-                            <a href="ContactEnquiry.aspx">
+                            <a href="ContactEnquiry.php">
                                 <i class="fa fa-phone"></i><span>Contact Enquiry</span>
                             </a>
                         </li>
                         <li>
-                            <a href="Visitor.aspx">
+                            <a href="Visitor.php">
                                 <i class="fa fa-map"></i><span>Visitor Enquiry</span>
                             </a>
                         </li>
@@ -159,25 +159,13 @@
                                 </span>
                             </a>
                             <ul class="treeview-menu">
-                                <li><a href="Datewise_Report.aspx"><i class="fa fa-calendar"></i>Date Wise</a></li>
-                                <li><a href="Coursewise_Report.aspx"><i class="fa fa-medkit"></i>Courses Wise</a></li>
+                                <li><a href="Datewise_Report.php"><i class="fa fa-calendar"></i>Date Wise</a></li>
+                                <li><a href="Coursewise_Report.php"><i class="fa fa-medkit"></i>Courses Wise</a></li>
                             </ul>
                         </li>
                     </ul>
                 </section>
             </aside>
-
-           
-
-                    <footer class="main-footer">
-                        <div class="pull-right hidden-xs">
-                            <b>Powered by :</b> Parvez Ansari Developer
-                        </div>
-                        <strong>Copyright &copy; 2020-2021 <a href="yescc.in">Yes Computer Center</a>.</strong> All rights reserved. 
-                    </footer>
-                    <div class="control-sidebar-bg"></div>
-                
-
         
         <script src="../bower_components/jquery/dist/jquery.min.js"></script>
         <script src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
@@ -233,10 +221,6 @@
             })
         </script>
         <script type="text/javascript">
-            /*code: 48-57 Numbers
-            8  - Backspace,
-            35 - home key, 36 - End key
-            37-40: Arrow keys, 46 - Delete key*/
             function restrictAlphabets(e, msg) {
                 var x = e.which || e.keycode;
                 if ((x >= 48 && x <= 57)) {
@@ -251,42 +235,23 @@
 
                 var x = e.which || e.keycode;
                 if ((x >= 65 && x <= 90) || (x >= 97 && x <= 122) || (x == 32) || (x == 46)) {
-                    // document.getElementById(msg).innerHTML = "";
-                    return true;
+                     return true;
                 }
                 else {
-                    //document.getElementById(msg).innerHTML = "Invalid Name format";
-
-                    return false;
+                        return false;
                 }
             }
             function Address(e) {
 
                 var x = e.which || e.keycode;
                 if ((x >= 65 && x <= 90) || (x >= 44 && x <= 47) || (x >= 97 && x <= 122) || (x == 32) || (x >= 48 && x <= 57)) {
-                    // document.getElementById(msg).innerHTML = "";
                     return true;
                 }
                 else {
-                    //document.getElementById(msg).innerHTML = "Invalid Name format";
-
                     return false;
                 }
             }
-            //function Address(e) {
-
-            //    var x = e.which || e.keycode;
-            //    if ((x >= 65 && x <= 90) || (x >= 97 && x <= 122) || (x == 32)) {
-            //   // if ((x >= 65 && x <= 90) || (x >= 44 && x <= 47) || (x >= 97 && x <= 122) || (x == 32) || (x >= 48 && x <= 57)) {
-            //        document.getElementById(msg).innerHTML = "";
-            //        return true;
-            //    }
-            //    else {
-
-            //        document.getElementById(msg).innerHTML = "Invalid Name format";
-            //        return false;
-            //    }
-            //}
+            
         </script>
     </body>
 </html>

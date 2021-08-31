@@ -1,0 +1,1 @@
+<?php echo "<h1>AddCourse_Syllabus page</h1>";?>
