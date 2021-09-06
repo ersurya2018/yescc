@@ -15,6 +15,7 @@
                 bottom: 0;
                 width: 100%;
                 color: white;
+                margin-top: 3%;
                 text-align: center;
                 color: green;
                 

@@ -1,3 +1,8 @@
 <?php
-echo "<h1>LogoutPage.aspx/h1>";
+session_start();
+session_destroy();
 ?>
+<script>
+        alert("Logout successfully....");
+    location.replace("../Login.php");
+    </script>

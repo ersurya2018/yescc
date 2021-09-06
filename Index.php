@@ -88,7 +88,7 @@
                 </div>
                 <div class="col-md-2 col-xs-12">
                     <div class="call-to-action-btn-angle">
-                        <a href="contact.aspx"><i class="fa fa-paper-plane"></i>Contact Us</a>
+                        <a href="contact.php"><i class="fa fa-paper-plane"></i>Contact Us</a>
                     </div>
                 </div>
             </div>

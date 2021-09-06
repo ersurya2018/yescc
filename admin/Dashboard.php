@@ -1,3 +1,22 @@
+<?php
+session_start();
+if(isset($_SESSION['log']))
+{
+
+}
+else{
+    ?>
+
+    <script>
+        alert("Please Login Fistly....")
+    location.replace("../Login.php");
+    </script>
+    <?php
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -116,6 +135,8 @@
                             </div>-->
                            
         </section>
+                <br />
+                <br />
                 <br />
                 <br />
                 <br />

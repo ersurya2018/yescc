@@ -54,10 +54,18 @@ session_start();
                $pass_decode =($user_pass == $user_pass1);
                 if($pass_decode)
                 {
+                    $selectdata="select * from useraccount";
+                    $query=mysqli_query($con,$selectdata);
+                    $res=mysqli_fetch_array($query);
+                    $email=$res[1];
+                    $res[2];
+                    $_SESSION['log']=$res[1];
+
                     ?>
                     <script>
                         alert("Login successfuly...");
                         location.replace("admin/Dashboard.php");
+                        //location.replace("contact.php");
                     </script>
 
                     <?php
