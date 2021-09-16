@@ -58,7 +58,7 @@ session_start();
                     $query=mysqli_query($con,$selectdata);
                     $res=mysqli_fetch_array($query);
                     $email=$res[1];
-                    $res[2];
+                    #$res[2];
                     $_SESSION['log']=$res[1];
 
                     ?>

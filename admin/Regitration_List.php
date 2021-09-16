@@ -1,3 +1,9 @@
+<?php
+session_start();
+session_destroy();
+header("Location:../Login.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,19 +71,19 @@
                                                <!-- <asp:Repeater ID="grdStudent" runat="server"> -->
                                                     <ItemTemplate>
                                                         <tr role="row" class="odd">
-                                                            <td class="sorting_1"><%#Eval("Id") %></td>
+                                                            <td class="sorting_1">ID</td>
                                                             <td>
                                                                 <asp:LinkButton runat="server" ID="lnkAppId" PostBackUrl='<%# "AdmissionForm.aspx?AppId="+Eval("ResitationNo") %>' Text='<%#Eval("ResitationNo") %>'></asp:LinkButton>
                                                             </td>
-                                                            <td><%#Eval("Name") %></td>
-                                                            <td><%#Eval("Gender") %></td>
-                                                            <td><%#Eval("MobileNo") %></td>
-                                                            <td><%#Eval("Email") %></td>
-                                                            <td><%#Eval("ComAddress") %></td>
+                                                            <td>name</td>
+                                                            <td>gender</td>
+                                                            <td>mobile</td>
+                                                            <td>email</td>
+                                                            <td>demo</td>
                                                             <td>
                                                                 <div class="tools">
                                                                     <a class="btn btn-success" title="View"><i class="fa fa-eye"></i></a>
-                                                                    <a href="Students_Registration.aspx?RegNo=<%#Eval("ResitationNo") %>" class="btn btn-primary" title="Edit"><i class="fa fa-edit"></i></a>
+                                                                    <a class="btn btn-primary" title="Edit"><i class="fa fa-edit"></i></a>
                                                                     <a class="btn btn-danger" title="Delete"><i class="fa fa-trash-o"></i></a>
                                                                 </div>
                                                             </td>
@@ -106,3 +112,15 @@
     <?php include 'footer.php' ?>
 </body>
 </html>
+<?php 
+include '../includes/connection.php'; 
+$selectdata="select * from registration";
+$query=mysqli_query($con,$selectdata);
+$nums=mysqli_num_rows($query);
+$res=mysqli_fetch_array($query);
+echo $res[1];
+echo $nums; 
+
+
+
+?>

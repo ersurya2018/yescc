@@ -1,3 +1,7 @@
+<?php
+session_destroy();
+header("Location:../Login.php");
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -127,7 +131,7 @@
                             <div id="example1_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
                                 <div class="row">
                                    
-                                    <div class="mid_box">
+                                    <div class="mid_box" style="height:400px; overflow-y:auto;">
 
                                          
                                         <div id="pnlApplicationForm">
@@ -533,6 +537,7 @@ if(isset($_POST['submit']))
     if($res){
         ?>
         <script>
+            location.replace("Dashboard.php");
             alert("data save properly");
         </script>
         <?php

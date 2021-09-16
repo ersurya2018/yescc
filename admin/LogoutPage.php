@@ -1,8 +1,9 @@
 <?php
 session_start();
 session_destroy();
+header("Location:../Login.php");
 ?>
 <script>
         alert("Logout successfully....");
-    location.replace("../Login.php");
-    </script>
+    
+</script>

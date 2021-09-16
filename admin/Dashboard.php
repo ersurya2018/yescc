@@ -15,8 +15,6 @@ else{
 }
 
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,8 +22,8 @@ else{
 <body>
 <!-- include masterpage-->
 <?php  include 'header.php' ?>
-<div class="content-wrapper">
-        <section class="content">
+<div class="content-wrapper"  style="height:400px; overflow-y:auto;">
+        <section class="content"  style="height:100px; overflow-y:auto;">
             <div class="row">
                 <div class="col-lg-3 col-xs-6">
                     <div class="small-box bg-aqua">
